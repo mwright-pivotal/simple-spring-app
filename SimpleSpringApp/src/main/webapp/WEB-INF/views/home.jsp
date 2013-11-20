@@ -17,6 +17,11 @@
 
 <p>  Available URI's ${application_uris }. </p>
 
+<h1>Aidan's Holiday Wishlist</h1>
+
+${xmasList.description }
+
+
 <h1>Instance Image</h1> 
 <img alt="${instance_index }" src="/resources/images/${instance_index }.jpg"/>
 </body>

@@ -1,9 +1,11 @@
 package com.pivotal.demo.data;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-@Document(collection = "aidans_list")
+@Entity
+@Table(name="aidans_list")
 public class Toy {
 	@Id
 	private String toy_name;
@@ -25,5 +27,4 @@ public class Toy {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
 }
