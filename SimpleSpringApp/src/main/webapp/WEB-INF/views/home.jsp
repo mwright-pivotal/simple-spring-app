@@ -23,6 +23,6 @@ ${xmasList.description }
 
 
 <h1>Instance Image</h1> 
-<img alt="${instance_index }" src="/resources/images/${instance_index }.jpg"/>
+<img alt="${instance_index }" src="/resources/images/${instance_index }a.jpg"/>
 </body>
 </html>
